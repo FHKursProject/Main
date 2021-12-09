@@ -1,0 +1,24 @@
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.exe
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.deps.json
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.runtimeconfig.json
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.runtimeconfig.dev.json
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.dll
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\ref\Menu.dll
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\bin\Debug\net5.0-windows\Menu.pdb
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.csprojAssemblyReference.cache
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Color Game.g.cs
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\App.g.cs
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu_MarkupCompile.cache
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu_MarkupCompile.lref
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Color Game.baml
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.g.resources
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.AssemblyInfoInputs.cache
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.AssemblyInfo.cs
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.csproj.CoreCompileInputs.cache
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.dll
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\ref\Menu.dll
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.pdb
+C:\Local\Work\Kurse\FH_C#\Projekte\Menu\Menu\obj\Debug\net5.0-windows\Menu.genruntimeconfig.cache
