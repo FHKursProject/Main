@@ -1,17 +1,86 @@
-﻿<Window x:Class="Menu.MainWindow"
-xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-xmlns:local="clr-namespace:Menu"
-mc:Ignorable="d"
-Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Black" ShowGridLines="True">
-        <!--Design: vorübergehend so gelöst, finales Design wahrscheinlich erst später mit (Scoreboas, Accounts, etc,) lösbar. Vorschlag: Spiele könnten in MenüBar Links eingefügt werden(breit mit Bildern), die minimiert werden kann.-->
-        <!--Mögliche Designs:-->
-        <Button x:Name="ColorGame" Content="Color game" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Height="160" Width="216" BorderBrush="White" BorderThickness="2" Foreground="White" Background="Black" Click="ColorGame_Click"/>
-        <Button x:Name="Memory" Content="Memory" HorizontalAlignment="Left" Margin="263,29,0,0" VerticalAlignment="Top" Height="160" Width="216" BorderBrush="White" BorderThickness="2" Foreground="White" Background="Black" Click="Memory_Click"/>
-        <Button x:Name="ReactionGame" Content="Reaction game" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="160" Width="216" BorderBrush="White" BorderThickness="2" Foreground="White" Background="Black" Click="ReactionGame_Click"/>
-        <Button x:Name="AimExercise" Content="Aim exercise" HorizontalAlignment="Left" Margin="263,217,0,0" VerticalAlignment="Top" Height="160" Width="216" BorderBrush="White" BorderThickness="2" Foreground="White" Background="Black" Click="AimExercise_Click"/>
+﻿<Window x:Class="MiniGame_TeamProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniGame_TeamProjekt"
+        mc:Ignorable="d" Background="Black"
+        Title="Memory Game" Height="735" Width="700">
+    <Grid>
+        <StackPanel>
+            <DockPanel>
+                <TextBlock x:Name="txt_playerOne" Background="White" Foreground="DeepPink" FontSize="30" Margin="30,25,30,15" Width="290" Height="65">Player 1</TextBlock>
+                <TextBlock x:Name="txt_playerTwo" Background="White" Foreground="BlueViolet" FontSize="30" Margin="30,25,30,15" Width="290" Height="65">Player 2</TextBlock>
+            </DockPanel>
+            <TextBlock x:Name="txt_player" Background="White" Foreground="Black" FontSize="20" Margin="15" Width="400" Height="40">Player 1 (who is playing)</TextBlock>
+            <DockPanel>
+                <Button x:Name="btn_01Card" Foreground="White" FontSize="30" Margin="30,15,15,15" Height="100" Width="100" Background="White" Click="btn_01Card_Click" BorderBrush="White">
+                    <Image x:Name="img_01Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_02Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_02Card_Click" BorderBrush="White">
+                    <Image x:Name="img_02Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_03Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_03Card_Click" BorderBrush="White">
+                    <Image x:Name="img_03Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_04Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_04Card_Click" BorderBrush="White">
+                    <Image x:Name="img_04Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_05Card" Foreground="White" FontSize="30" Margin="15,15,30,15" Height="100" Width="100" Background="White" Click="btn_05Card_Click" BorderBrush="White">
+                    <Image x:Name="img_05Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+            </DockPanel>
+            <DockPanel>
+                <Button x:Name="btn_06Card" Foreground="White" FontSize="30" Margin="30,15,15,15" Height="100" Width="100" Background="White" Click="btn_06Card_Click" BorderBrush="White">
+                    <Image x:Name="img_06Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_07Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_07Card_Click" BorderBrush="White">
+                    <Image x:Name="img_07Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_08Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_08Card_Click" BorderBrush="White">
+                    <Image x:Name="img_08Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_09Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_09Card_Click" BorderBrush="White">
+                    <Image x:Name="img_09Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_10Card" Foreground="White" FontSize="30" Margin="15,15,30,15" Height="100" Width="100" Background="White" Click="btn_10Card_Click" BorderBrush="White">
+                    <Image x:Name="img_10Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+            </DockPanel>
+            <DockPanel>
+                <Button x:Name="btn_11Card" Foreground="White" FontSize="30" Margin="30,15,15,15" Height="100" Width="100" Background="White" Click="btn_11Card_Click" BorderBrush="White">
+                    <Image x:Name="img_11Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_12Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_12Card_Click" BorderBrush="White">
+                    <Image x:Name="img_12Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_13Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_13Card_Click" BorderBrush="White">
+                    <Image x:Name="img_13Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_14Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_14Card_Click" BorderBrush="White">
+                    <Image x:Name="img_14Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_15Card" Foreground="White" FontSize="30" Margin="15,15,30,15" Height="100" Width="100" Background="White" Click="btn_15Card_Click" BorderBrush="White">
+                    <Image x:Name="img_15Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+            </DockPanel>
+            <DockPanel>
+                <Button x:Name="btn_16Card" Foreground="White" FontSize="30" Margin="30,15,15,15" Height="100" Width="100" Background="White" Click="btn_16Card_Click" BorderBrush="White">
+                    <Image x:Name="img_16Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_17Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_17Card_click" BorderBrush="White">
+                    <Image x:Name="img_17Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_18Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_18Card_Click" BorderBrush="White">
+                    <Image x:Name="img_18Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_19Card" Foreground="White" FontSize="30" Margin="15" Height="100" Width="100" Background="White" Click="btn_19Card_Click" BorderBrush="White">
+                    <Image x:Name="img_19Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+                <Button x:Name="btn_20Card" Foreground="White" FontSize="30" Margin="15,15,30,15" Height="100" Width="100" Background="White" Click="btn_20Card_Click" BorderBrush="White">
+                    <Image x:Name="img_20Card" Visibility="Hidden" Stretch="Fill"/>
+                </Button>
+            </DockPanel>
+        </StackPanel>
     </Grid>
 </Window>
