@@ -1,0 +1,14 @@
+﻿<Window x:Class="Menu.PlayerStatisticView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Menu"
+        mc:Ignorable="d"
+        Title="PlayerStatisticView" Height="450" Width="800" Background="Black">
+    <Grid>
+        <TextBlock Text="Your Statistics:" Height="28" Width="276" Margin="10,10,514,396" Foreground="White" FontWeight="Bold" FontSize="20"></TextBlock>
+        <TextBlock x:Name="tb_PlayersStatistics" Text="Players Statistics..." Foreground="White" Margin="10,67,383,61" FontSize="20"></TextBlock>
+        <Button x:Name="btn_BackToMenu"  Content="Back to Menu" Background="Black" Foreground="White" BorderBrush="White" FontSize="15" Margin="530,289,29,29" Click="BackToMenu_Click"></Button>
+    </Grid>
+</Window>

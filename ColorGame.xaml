@@ -1,0 +1,40 @@
+﻿<Window x:Class="Menu.ColorGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Menu"
+        mc:Ignorable="d"
+        Title="Color_Game" Height="450" Width="800"  Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ColorPicker" Content="Color" Background="Black" BorderBrush="White" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" FontSize="36" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="ColorGuesser1" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="3" Grid.Column="2" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser1_Click"></Button>
+        <Button x:Name="ColorGuesser2" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="3" Grid.Column="4" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser2_Click"></Button>
+        <Button x:Name="ColorGuesser3" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="3" Grid.Column="6" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser3_Click"></Button>
+        <Button x:Name="ColorGuesser4" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="4" Grid.Column="3" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser4_Click"></Button>
+        <Button x:Name="ColorGuesser5" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="4" Grid.Column="5" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser5_Click"></Button>
+        <Button x:Name="ColorGuesser6" Content="Color" Background="Black" Height="50" BorderBrush="White" Grid.Row="4" Grid.Column="7" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorGuesser6_Click"></Button>
+        <Button x:Name="ColorNotHere" Content="Not Here" Background="Black" Height="50" BorderBrush="White" Grid.Row="4" Grid.Column="1" FontSize="20" Foreground="White" FontWeight="Bold" Click="ColorNotHere_Click"></Button>
+        <TextBlock x:Name="Points" Text="P: 0" Foreground="White" Grid.Row="1" FontSize="25" FontWeight="Bold"></TextBlock>
+        <TextBlock x:Name="Time" Text="15" Foreground="White" Grid.Row="1" Grid.Column="8" FontSize="25" FontWeight="Bold"></TextBlock>
+    </Grid>
+</Window>
